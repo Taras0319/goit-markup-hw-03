@@ -31,6 +31,18 @@ p,h1,h2,h3,h4,h5,h6 {
   padding-bottom: 24px;
 }
 
+.header-navigation {
+display: flex;
+align-items: center;
+}
+
+.header-menu {
+display: flex;
+align-items: center;
+gap: 40px;
+}
+
+
 .container {
   width: 1470px;
   padding-left: 15px;
@@ -46,6 +58,7 @@ p,h1,h2,h3,h4,h5,h6 {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-right: 76px;
 }
 
 .header-logo-span {
@@ -62,6 +75,8 @@ background-color: #FFF;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding-top: 24px;
+        padding-bottom: 24px;
  }
 
 .header-link:active {
@@ -79,12 +94,12 @@ background-color: #FFF;
 .address {
 font-style: normal;
 }
-
  .address-menu-item-list  {
     color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        
  }
 
  
@@ -105,7 +120,7 @@ font-style: normal;
 
  .main-container {
   background: var(--NAVY-BLUE, #2E2F42);
-  padding: 188px  472px 292px 472px ;
+  padding: 188px 0 ;
  }
 
  .main-name {
@@ -115,6 +130,8 @@ font-style: normal;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        margin: 0 auto 48px;
+        max-width: 496px;
       }
 
  .main-btn {
@@ -126,12 +143,22 @@ font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        margin: 0 auto;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
       }
 
  .main-btn:hover {
     background-color: #404bbf;
  }
 
+ .sub-title {
+  background-color: #ffffff;
+  padding: 120px 0;
+ }
  .main-btn:focus {
     background-color: #404bbf;
  }
@@ -140,7 +167,17 @@ font-style: normal;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+    
+  .feature-list {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+    display: flex;
+  }
 
   .title-text {
     color: var(--SLATE, #434455);
