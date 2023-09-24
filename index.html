@@ -40,20 +40,24 @@
             </li>
           </ul>
         </nav>
-        <address class="address">
-          <ul class="address-menu">
-            <li class="address-menu-item">
-              <a class="address-menu-item-list" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="address-menu-item">
-              <a class="address-menu-item-list" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="address-wrapper">
+          <address class="address">
+            <ul class="address-menu">
+              <li class="address-menu-item">
+                <a
+                  class="address-menu-item-list"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-menu-item">
+                <a class="address-menu-item-list" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <!-- main -->
@@ -103,7 +107,7 @@
       <!-- hero -->
       <section class="hero">
         <h2 class="hero-item">Our Team</h2>
-        <ul>
+        <ul class="hero-images">
           <li class="hero-subtitle">
             <img src="./images1/mark.jpg" alt="images Mark" width="264" />
             <h3 class="hero-name">Mark Guerrero</h3>
@@ -131,47 +135,53 @@
       </section>
       <!-- portfolio -->
       <section class="portfolio">
-        <h2 class="portfolio-item">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img src="./images1/banking.jpg" alt="Banking App" width="360" />
-            <h3 class="portfolio-img">Banking App</h3>
-            <p class="portfolio-text">App</p>
-          </li>
-          <li>
-            <img
-              src="./images1/payment.jpg"
-              alt="Cashless Payment"
-              width="360"
-            />
-            <h3 class="portfolio-img">Cashless Payment</h3>
-            <p class="portfolio-text">Marketing</p>
-          </li>
-          <li>
-            <img src="./images1/APP.jpg" alt="App" width="360" />
-            <h3 class="portfolio-img">Meditation App</h3>
-            <p class="portfolio-text">App</p>
-          </li>
-          <li>
-            <img src="./images1/taxi.jpg" alt="Service" width="360" />
-            <h3 class="portfolio-img">Taxi Service</h3>
-            <p class="portfolio-text">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images1/skreen.jpg"
-              alt="Screen Illustrations"
-              width="360"
-            />
-            <h3 class="portfolio-img">Screen Illustrations</h3>
-            <p class="portfolio-text">Design</p>
-          </li>
-          <li>
-            <img src="./images1/onlain.jpg" alt="Online Courses" width="360" />
-            <h3 class="portfolio-img">Online Courses</h3>
-            <p class="portfolio-text">Marketing</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="portfolio-item">Our Portfolio</h2>
+          <ul class="portfolio-images">
+            <li class="portfolio-images-wrapper">
+              <img src="./images1/banking.jpg" alt="Banking App" width="360" />
+              <h3 class="portfolio-img">Banking App</h3>
+              <p class="portfolio-text">App</p>
+            </li>
+            <li class="portfolio-images-wrapper">
+              <img
+                src="./images1/payment.jpg"
+                alt="Cashless Payment"
+                width="360"
+              />
+              <h3 class="portfolio-img">Cashless Payment</h3>
+              <p class="portfolio-text">Marketing</p>
+            </li>
+            <li class="portfolio-images-wrapper">
+              <img src="./images1/APP.jpg" alt="App" width="360" />
+              <h3 class="portfolio-img">Meditation App</h3>
+              <p class="portfolio-text">App</p>
+            </li>
+            <li class="portfolio-images-wrapper">
+              <img src="./images1/taxi.jpg" alt="Service" width="360" />
+              <h3 class="portfolio-img">Taxi Service</h3>
+              <p class="portfolio-text">Marketing</p>
+            </li>
+            <li class="portfolio-images-wrapper">
+              <img
+                src="./images1/skreen.jpg"
+                alt="Screen Illustrations"
+                width="360"
+              />
+              <h3 class="portfolio-img">Screen Illustrations</h3>
+              <p class="portfolio-text">Design</p>
+            </li>
+            <li class="portfolio-images-wrapper">
+              <img
+                src="./images1/onlain.jpg"
+                alt="Online Courses"
+                width="360"
+              />
+              <h3 class="portfolio-img">Online Courses</h3>
+              <p class="portfolio-text">Marketing</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--footer-->

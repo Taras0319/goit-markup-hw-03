@@ -40,14 +40,21 @@ align-items: center;
 display: flex;
 align-items: center;
 gap: 40px;
+padding-right: 332px;
 }
 
+.header .container {
+display: flex;
+}
 
 .container {
-  width: 1470px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  
+  
+  
 }
 
 .header-logo {
@@ -93,12 +100,22 @@ background-color: #FFF;
 
 .address {
 font-style: normal;
+display: flex;
 }
+
+.address-menu {
+display: flex;
+gap: 40px;
+align-items: center;
+}
+
+
  .address-menu-item-list  {
     color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        
         
  }
 
@@ -132,6 +149,7 @@ font-style: normal;
         letter-spacing: 0.02em;
         margin: 0 auto 48px;
         max-width: 496px;
+      
       }
 
  .main-btn {
@@ -170,13 +188,14 @@ font-style: normal;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
   }
-    
+    .feature-list-item {
+      width: calc((100% - 72px) / 4);
+    }
+
   .feature-list {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
     display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
   }
 
   .title-text {
@@ -184,6 +203,7 @@ font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
 }
 
 /*============================*/
@@ -192,9 +212,15 @@ font-style: normal;
   .hero {
     background: #F4F4FD;
 }
+.hero-images {
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+}
 
   .hero-subtitle {
     background: #FFF
+  
 }
 
   .hero-item {
@@ -205,6 +231,7 @@ font-style: normal;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
   .hero-name {
@@ -228,6 +255,8 @@ font-style: normal;
 /*========== portfolio ============*/
   .portfolio {
     background: #FFF;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
   .portfolio-item {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -237,7 +266,21 @@ font-style: normal;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+   
 }
+
+.portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-images-wrapper {
+width: calc((100% -48px) /3);
+}
+
 
   .portfolio-img {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -245,6 +288,7 @@ font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
   .portfolio-text {
