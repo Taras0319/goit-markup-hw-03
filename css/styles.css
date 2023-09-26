@@ -114,12 +114,13 @@ background-color: #FFF;
   font-size: 16px;
   font-style: normal;
   color: #434455;
-  display: flex;
+  
+  gap: 40px;
 }
 
 .address-menu {
 display: inline-flex;
-gap: 40px;
+display: flex;
 align-items: center;
 }
 
@@ -336,6 +337,7 @@ width: calc((100% - 48px) / 3);
  .portfolio-wrapeer {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 } 
 
   .portfolio-img {
