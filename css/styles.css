@@ -85,6 +85,8 @@ color: #2e2f42;
 
 .header-item {
 background-color: #FFF;
+gap: 40px;
+display: flex;
 }
 
  .header-link {
@@ -114,7 +116,6 @@ background-color: #FFF;
   font-size: 16px;
   font-style: normal;
   color: #434455;
-  
   gap: 40px;
 }
 
@@ -245,10 +246,8 @@ align-items: center;
   padding: 120px 0;
   }
 .container-hero {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 32px 0;
 }
-
 
 .hero-images {
   justify-content: center;
